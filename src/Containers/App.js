@@ -4,7 +4,6 @@ import SearchBox from '../Components/SearchBox';
 import Scroll from '../Components/Scroll';
 import './App.css';
 
-
 class App extends Component {
     constructor() {
         super()
@@ -45,7 +44,7 @@ class App extends Component {
                         <CardList robots={filteredRobots} />
                     </Scroll>
                 </div>
-            );
+        );
     }
 }
 
